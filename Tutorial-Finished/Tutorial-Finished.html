@@ -1,0 +1,110 @@
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script> <!--add this-->
+	
+  <link rel="stylesheet" href="Styles.css">
+	
+</head>
+
+<body style="background: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');background-attachment: fixed; background-size: 100%;">
+
+  <!-- this is a comment-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-default affix" data-offset-top="0">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div style="float: right;">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+	
+    <div style="padding-bottom: 30;padding-top: 30">
+      <center>
+        <div style="margin-bottom: -20; padding-top: 50">
+          <h1 color="white">
+            <font color="white">Making a Website is this easy!</font>
+          </h1>
+        </div>
+        <img src="https://github.com/CPayne6/QWEB-Tutorial-Series/blob/master/HTML-CSS%20Tutorial/Logo.png?raw=true" class="center-block" style="width: 50%">
+        <div class="row" style="width:100%">
+          <font color="white"><h2><span id="Changing-Text"></span><span class="cursor">|</span> AT QWEB</h2></font>
+        </div>
+      </center>
+    </div>
+
+    <div class="container" style="background: rgba(255,255,255,0.9);border-radius: 25px; padding-bottom: 20px">
+      <div class="container" style="padding-bottom: 20px">
+        <div class="row">
+          <div class="col-md-6"><h2>Some Nice Pictures</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+          	<div class = "row">
+            	<img src="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/space.png?itok=O8RXwdUw&resize=1100x619g" style="max-width: 90%;">
+            	<p> As you can probably tell, Chris has a rather unique taste in pictures. He tries to work on it. </p>
+    			  </div>
+          </div>
+          <div class="col-md-4">
+            <img src="https://pbs.twimg.com/profile_images/433345090585493504/qqhlO4Qg.jpeg" style="max-width: 90%;">
+          </div>
+          <div class="col-md-4">
+            <img src="https://i.ytimg.com/vi/1fMeCEPjt3w/maxresdefault.jpg" style="max-width: 90%;">
+          </div>
+        </div>
+      </div>
+  
+      <div>
+    		<h3> Table describing University Experience:  </h3>
+    		<table class='table table-striped'>
+    			<thead>
+    				<tr>
+    					<th> First Month  </th>
+    					<th> After First Semester </th>
+    					<th> After Calc Midterm </th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td> I plan to get A's </td>
+    					<td> C's get degrees </td>
+    					<td> Wow I passed! </td>
+    				</tr>
+    			</tbody>
+    		</table>
+      </div>
+    </div>
+
+    <div class="container" style="background: rgba(255,255,255,0.9);border-radius: 25px;padding-top:20px;margin-top:20px">
+      <div class='row'>
+        <div class='col-md-6'>
+          <h2>Uplifting Graphs</h2>
+        </div>
+      </div>
+      <div class='row'>
+
+        <div class="col-md-6">
+          <canvas id='Chart1' height='400' width = '500'></canvas>
+        </div>
+
+        <div class="col-md-6">
+          <canvas id='Chart2' height='400' width = '500'></canvas>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="wordGenerator.js"></script> <!-- Add these -->
+    <script src="studentChart.js"></script>
+</body>

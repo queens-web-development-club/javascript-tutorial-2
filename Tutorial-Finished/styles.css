@@ -1,0 +1,21 @@
+.affix {
+	top:0;
+	width: 97.6%;
+	z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+	padding-top: 10px;
+}
+
+.cursor {
+    animation-name: blink-cursor;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink-cursor {
+    from {opacity:1;}
+    to {opacity: 0;}
+}

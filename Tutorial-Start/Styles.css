@@ -1,0 +1,9 @@
+.affix {
+	top:0;
+	width: 97.6%;
+	z-index: 9999 !important;
+}
+		
+.affix + .container-fluid {
+	padding-top: 10px;
+}
